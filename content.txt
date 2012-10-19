@@ -1,0 +1,10 @@
+Website Yang Masih Memiliki Celah Keamanan Yang Fatal
+
+Berikut ini merupakan contoh website yang masih memiliki celah keamanan yang fatal pada form login administrator nya. Cukup dengan SQL Injection kita bisa masuk sebagai admin.
+
+link website:
+1. http://www.udesa.co.za/admin/login.asp
+2. http://www.crsandersgolf.com/admin.asp
+3. http://www.laxmimedical.com/admin.asp
+
+Pencegahan untuk celah keamanan SQL Injection pada form login, bisa dengan merubah algoritma untuk username dan password atau bisa juga dengan menambahkan skrip untuk melakukan enkripsi pada password.
